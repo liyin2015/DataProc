@@ -1,0 +1,220 @@
+﻿Build started 2015/1/11 15:41:22.
+     1>Project "F:\VSprojects2010\DataProc\DataProc\DataProc\DataProc.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\DataProc.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IF:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\DataProc.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IF:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\DataProc.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AboutDlg.cpp DataProc.cpp DataProcDlg.cpp ChartCtrl_source\ChartAxis.cpp ChartCtrl_source\ChartAxisLabel.cpp ChartCtrl_source\ChartBarSerie.cpp ChartCtrl_source\ChartCandlestickSerie.cpp ChartCtrl_source\ChartCrossHairCursor.cpp ChartCtrl_source\ChartCtrl.cpp ChartCtrl_source\ChartCursor.cpp ChartCtrl_source\ChartDateTimeAxis.cpp ChartCtrl_source\ChartDragLineCursor.cpp ChartCtrl_source\ChartFont.cpp ChartCtrl_source\ChartGanttSerie.cpp ChartCtrl_source\ChartGradient.cpp ChartCtrl_source\ChartGrid.cpp ChartCtrl_source\ChartLegend.cpp ChartCtrl_source\ChartLineSerie.cpp ChartCtrl_source\ChartLogarithmicAxis.cpp ChartCtrl_source\ChartPointsSerie.cpp ChartCtrl_source\ChartScrollBar.cpp ChartCtrl_source\ChartSerie.cpp ChartCtrl_source\ChartStandardAxis.cpp ChartCtrl_source\ChartSurfaceSerie.cpp ChartCtrl_source\ChartTitle.cpp ChartCtrl_source\ChartXYSerie.cpp DlgAdParas.cpp DlgCluster.cpp dlgComm.cpp DlgMain.cpp DlgModelSelect.cpp DlgOtherAlgo.cpp DlgPredict.cpp DlgRealTimeMonitor.cpp EditTable.cpp inputDlg.cpp ItemEdit.cpp
+         AboutDlg.cpp
+     1>F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(33): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 class“log4cxx::helpers::Exception”的基
+                 E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\exception(94) : 参见“std::exception”的声明
+                 F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(32) : 参见“log4cxx::helpers::Exception”的声明
+         DataProc.cpp
+     1>F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(33): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 class“log4cxx::helpers::Exception”的基
+                 E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\exception(94) : 参见“std::exception”的声明
+                 F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(32) : 参见“log4cxx::helpers::Exception”的声明
+         DataProcDlg.cpp
+     1>F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(33): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 class“log4cxx::helpers::Exception”的基
+                 E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\exception(94) : 参见“std::exception”的声明
+                 F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(32) : 参见“log4cxx::helpers::Exception”的声明
+         ChartAxis.cpp
+         ChartAxisLabel.cpp
+         ChartBarSerie.cpp
+         ChartCandlestickSerie.cpp
+         ChartCrossHairCursor.cpp
+         ChartCtrl.cpp
+         ChartCursor.cpp
+         ChartDateTimeAxis.cpp
+         ChartDragLineCursor.cpp
+         ChartFont.cpp
+         ChartGanttSerie.cpp
+         ChartGradient.cpp
+         ChartGrid.cpp
+         ChartLegend.cpp
+         ChartLineSerie.cpp
+         ChartLogarithmicAxis.cpp
+         ChartPointsSerie.cpp
+         正在编译...
+         ChartScrollBar.cpp
+         ChartSerie.cpp
+         ChartStandardAxis.cpp
+         ChartSurfaceSerie.cpp
+         ChartTitle.cpp
+         ChartXYSerie.cpp
+         DlgAdParas.cpp
+     1>F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(33): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 class“log4cxx::helpers::Exception”的基
+                 E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\exception(94) : 参见“std::exception”的声明
+                 F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(32) : 参见“log4cxx::helpers::Exception”的声明
+         DlgCluster.cpp
+     1>F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(33): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 class“log4cxx::helpers::Exception”的基
+                 E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\exception(94) : 参见“std::exception”的声明
+                 F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(32) : 参见“log4cxx::helpers::Exception”的声明
+         dlgComm.cpp
+         DlgMain.cpp
+     1>F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(33): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 class“log4cxx::helpers::Exception”的基
+                 E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\exception(94) : 参见“std::exception”的声明
+                 F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(32) : 参见“log4cxx::helpers::Exception”的声明
+         DlgModelSelect.cpp
+     1>F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(33): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 class“log4cxx::helpers::Exception”的基
+                 E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\exception(94) : 参见“std::exception”的声明
+                 F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(32) : 参见“log4cxx::helpers::Exception”的声明
+         DlgOtherAlgo.cpp
+     1>F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(33): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 class“log4cxx::helpers::Exception”的基
+                 E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\exception(94) : 参见“std::exception”的声明
+                 F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(32) : 参见“log4cxx::helpers::Exception”的声明
+         DlgPredict.cpp
+     1>F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(33): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 class“log4cxx::helpers::Exception”的基
+                 E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\exception(94) : 参见“std::exception”的声明
+                 F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(32) : 参见“log4cxx::helpers::Exception”的声明
+         DlgRealTimeMonitor.cpp
+     1>F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(33): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 class“log4cxx::helpers::Exception”的基
+                 E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\exception(94) : 参见“std::exception”的声明
+                 F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(32) : 参见“log4cxx::helpers::Exception”的声明
+         EditTable.cpp
+         inputDlg.cpp
+     1>F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(33): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 class“log4cxx::helpers::Exception”的基
+                 E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\exception(94) : 参见“std::exception”的声明
+                 F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(32) : 参见“log4cxx::helpers::Exception”的声明
+         ItemEdit.cpp
+         All outputs are up-to-date.
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IF:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ChartCtrl_source\draw_lib.cpp common.cpp ml\algo_basic.cpp ml\clustering\k_means.cpp ml\clustering\level_cluster.cpp ml\cluster_base.cpp ml\comm.cpp ml\evaluate_hypo.cpp ml\examples.cpp ml\feature_scalling.cpp ml\io_manager.cpp ml\kernels.cpp ml\math_function.cpp ml\matrix.cpp ml\otherAlgo_Base.cpp ml\otherAlgo\apriori.cpp ml\supervise\linear_regression.cpp ml\supervise\logistic_regression.cpp ml\supervise\neural_network.cpp ml\supervise\svm.cpp
+         draw_lib.cpp
+     1>F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(33): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 class“log4cxx::helpers::Exception”的基
+                 E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\exception(94) : 参见“std::exception”的声明
+                 F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(32) : 参见“log4cxx::helpers::Exception”的声明
+         common.cpp
+         algo_basic.cpp
+     1>F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(33): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 class“log4cxx::helpers::Exception”的基
+                 E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\exception(94) : 参见“std::exception”的声明
+                 F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(32) : 参见“log4cxx::helpers::Exception”的声明
+         k_means.cpp
+     1>F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(33): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 class“log4cxx::helpers::Exception”的基
+                 E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\exception(94) : 参见“std::exception”的声明
+                 F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(32) : 参见“log4cxx::helpers::Exception”的声明
+         level_cluster.cpp
+     1>F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(33): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 class“log4cxx::helpers::Exception”的基
+                 E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\exception(94) : 参见“std::exception”的声明
+                 F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(32) : 参见“log4cxx::helpers::Exception”的声明
+         cluster_base.cpp
+     1>F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(33): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 class“log4cxx::helpers::Exception”的基
+                 E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\exception(94) : 参见“std::exception”的声明
+                 F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(32) : 参见“log4cxx::helpers::Exception”的声明
+         comm.cpp
+         evaluate_hypo.cpp
+         examples.cpp
+     1>F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(33): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 class“log4cxx::helpers::Exception”的基
+                 E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\exception(94) : 参见“std::exception”的声明
+                 F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(32) : 参见“log4cxx::helpers::Exception”的声明
+         feature_scalling.cpp
+     1>F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(33): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 class“log4cxx::helpers::Exception”的基
+                 E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\exception(94) : 参见“std::exception”的声明
+                 F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(32) : 参见“log4cxx::helpers::Exception”的声明
+         io_manager.cpp
+     1>F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(33): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 class“log4cxx::helpers::Exception”的基
+                 E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\exception(94) : 参见“std::exception”的声明
+                 F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(32) : 参见“log4cxx::helpers::Exception”的声明
+         kernels.cpp
+         math_function.cpp
+         matrix.cpp
+     1>F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(33): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 class“log4cxx::helpers::Exception”的基
+                 E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\exception(94) : 参见“std::exception”的声明
+                 F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(32) : 参见“log4cxx::helpers::Exception”的声明
+         otherAlgo_Base.cpp
+         apriori.cpp
+     1>F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(33): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 class“log4cxx::helpers::Exception”的基
+                 E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\exception(94) : 参见“std::exception”的声明
+                 F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(32) : 参见“log4cxx::helpers::Exception”的声明
+         linear_regression.cpp
+     1>F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(33): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 class“log4cxx::helpers::Exception”的基
+                 E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\exception(94) : 参见“std::exception”的声明
+                 F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(32) : 参见“log4cxx::helpers::Exception”的声明
+         logistic_regression.cpp
+     1>F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(33): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 class“log4cxx::helpers::Exception”的基
+                 E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\exception(94) : 参见“std::exception”的声明
+                 F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(32) : 参见“log4cxx::helpers::Exception”的声明
+         neural_network.cpp
+     1>F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(33): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 class“log4cxx::helpers::Exception”的基
+                 E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\exception(94) : 参见“std::exception”的声明
+                 F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(32) : 参见“log4cxx::helpers::Exception”的声明
+         svm.cpp
+     1>F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(33): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 class“log4cxx::helpers::Exception”的基
+                 E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\exception(94) : 参见“std::exception”的声明
+                 F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include\log4cxx/helpers/exception.h(32) : 参见“log4cxx::helpers::Exception”的声明
+       ResourceCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /l"0x0804" /IRelease\ /nologo /fo"Release\DataProc.res" DataProc.rc 
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\VSprojects2010\DataProc\DataProc\Release\DataProc.exe" /INCREMENTAL:NO /NOLOGO log4cxx.lib /MANIFEST /ManifestFile:"Release\DataProc.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\VSprojects2010\DataProc\DataProc\Release\DataProc.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\VSprojects2010\DataProc\DataProc\Release\DataProc.lib" /MACHINE:X86 Release\DataProc.res
+         Release\AboutDlg.obj
+         Release\draw_lib.obj
+         Release\DataProc.obj
+         Release\DataProcDlg.obj
+         Release\ChartAxis.obj
+         Release\ChartAxisLabel.obj
+         Release\ChartBarSerie.obj
+         Release\ChartCandlestickSerie.obj
+         Release\ChartCrossHairCursor.obj
+         Release\ChartCtrl.obj
+         Release\ChartCursor.obj
+         Release\ChartDateTimeAxis.obj
+         Release\ChartDragLineCursor.obj
+         Release\ChartFont.obj
+         Release\ChartGanttSerie.obj
+         Release\ChartGradient.obj
+         Release\ChartGrid.obj
+         Release\ChartLegend.obj
+         Release\ChartLineSerie.obj
+         Release\ChartLogarithmicAxis.obj
+         Release\ChartPointsSerie.obj
+         Release\ChartScrollBar.obj
+         Release\ChartSerie.obj
+         Release\ChartStandardAxis.obj
+         Release\ChartSurfaceSerie.obj
+         Release\ChartTitle.obj
+         Release\ChartXYSerie.obj
+         Release\common.obj
+         Release\DlgAdParas.obj
+         Release\DlgCluster.obj
+         Release\dlgComm.obj
+         Release\DlgMain.obj
+         Release\DlgModelSelect.obj
+         Release\DlgOtherAlgo.obj
+         Release\DlgPredict.obj
+         Release\DlgRealTimeMonitor.obj
+         Release\EditTable.obj
+         Release\inputDlg.obj
+         Release\ItemEdit.obj
+         Release\algo_basic.obj
+         Release\k_means.obj
+         Release\level_cluster.obj
+         Release\cluster_base.obj
+         Release\comm.obj
+         Release\evaluate_hypo.obj
+         Release\examples.obj
+         Release\feature_scalling.obj
+         Release\io_manager.obj
+         Release\kernels.obj
+         Release\math_function.obj
+         Release\matrix.obj
+         Release\otherAlgo_Base.obj
+         Release\apriori.obj
+         Release\linear_regression.obj
+         Release\logistic_regression.obj
+         Release\neural_network.obj
+         Release\svm.obj
+         Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         DataProc.vcxproj -> F:\VSprojects2010\DataProc\DataProc\Release\DataProc.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\VSprojects2010\DataProc\DataProc\Release\DataProc.exe;#1" /manifest Release\DataProc.exe.intermediate.manifest "E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\DataProc.unsuccessfulbuild".
+         Touching "Release\DataProc.lastbuildstate".
+     1>Done Building Project "F:\VSprojects2010\DataProc\DataProc\DataProc\DataProc.vcxproj" (build target(s)).
+
+生成成功。
+
+Time Elapsed 00:01:03.94

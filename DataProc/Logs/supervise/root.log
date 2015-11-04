@@ -1,0 +1,252 @@
+ INFO [0x00003208] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\algo_basic.cpp:238) - X_train
+1	
+2	
+3	
+4	
+5	
+6	
+7	
+8	
+9	
+10	
+11	
+12	
+13	
+
+    INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:127) - case1
+    INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:127) - case1
+    INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:150) - case2
+    INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:168) - case3
+    INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:168) - case3
+    INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:127) - case1
+    INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:168) - case3
+    INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:168) - case3
+    INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:168) - case3
+    INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:238) - cluster 0
+    INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:242) - 	8
+    INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:242) - 	9
+    INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:242) - 	7
+    INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:242) - 	10
+    INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:242) - 	11
+    INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:238) - cluster 1
+    INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:242) - 	0
+    INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:242) - 	1
+    INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:242) - 	3
+    INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:242) - 	2
+    INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:238) - cluster 2
+    INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:242) - 	4
+    INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:242) - 	5
+    INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:242) - 	6
+    INFO [0x00003340] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\otheralgo\apriori.cpp:686) - C1
+
+1	count6
+
+2	count7
+
+5	count2
+
+4	count2
+
+3	count6
+
+    INFO [0x00003340] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\otheralgo\apriori.cpp:711) - L1
+
+1	count6
+
+2	count7
+
+5	count2
+
+4	count2
+
+3	count6
+
+    INFO [0x00003340] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\otheralgo\apriori.cpp:622) - C2
+1	2	count0
+
+1	5	count0
+
+1	4	count0
+
+1	3	count0
+
+2	5	count0
+
+2	4	count0
+
+2	3	count0
+
+4	5	count0
+
+3	5	count0
+
+3	4	count0
+
+    INFO [0x00003340] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\otheralgo\apriori.cpp:658) - Ltmp2
+1	2	count4
+
+1	5	count2
+
+1	4	count1
+
+1	3	count4
+
+2	5	count2
+
+2	4	count2
+
+2	3	count4
+
+4	5	count0
+
+3	5	count1
+
+3	4	count0
+
+    INFO [0x00003340] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\otheralgo\apriori.cpp:711) - L2
+
+1	2	count4
+
+1	5	count2
+
+1	3	count4
+
+2	5	count2
+
+2	4	count2
+
+2	3	count4
+
+    INFO [0x00003340] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\otheralgo\apriori.cpp:622) - C3
+1	2	5	count0
+
+1	2	4	count0
+
+1	2	3	count0
+
+    INFO [0x00003340] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\otheralgo\apriori.cpp:658) - Ltmp3
+1	2	5	count2
+
+1	2	4	count1
+
+1	2	3	count2
+
+    INFO [0x00003340] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\otheralgo\apriori.cpp:711) - L3
+
+1	2	5	count2
+
+1	2	3	count2
+
+    INFO [0x00003340] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\otheralgo\apriori.cpp:622) - C4
+    INFO [0x00003340] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\otheralgo\apriori.cpp:735) - endK3
+    INFO [0x00003340] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\otheralgo\apriori.cpp:813) - H1
+1	count0
+
+2	count0
+
+    INFO [0x00003340] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\otheralgo\apriori.cpp:813) - H1
+1	count0
+
+5	count0
+
+    INFO [0x00003340] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\otheralgo\apriori.cpp:813) - H1
+1	count0
+
+3	count0
+
+    INFO [0x00003340] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\otheralgo\apriori.cpp:813) - H1
+2	count0
+
+5	count0
+
+    INFO [0x00003340] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\otheralgo\apriori.cpp:813) - H1
+2	count0
+
+4	count0
+
+    INFO [0x00003340] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\otheralgo\apriori.cpp:813) - H1
+2	count0
+
+3	count0
+
+    INFO [0x00003340] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\otheralgo\apriori.cpp:816) - RVector1
+1-->2 conf: 0.666667
+
+5-->1 conf: 1
+
+3-->1 conf: 0.666667
+
+1-->3 conf: 0.666667
+
+5-->2 conf: 1
+
+4-->2 conf: 1
+
+3-->2 conf: 0.666667
+
+    INFO [0x00003340] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\otheralgo\apriori.cpp:831) - H2
+1	count0
+
+2	count0
+
+5	count0
+
+    INFO [0x00003340] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\otheralgo\apriori.cpp:622) - C2
+1	2	count0
+
+    INFO [0x00003340] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\otheralgo\apriori.cpp:622) - C3
+    INFO [0x00003340] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\otheralgo\apriori.cpp:831) - H2
+1	count0
+
+2	count0
+
+3	count0
+
+    INFO [0x00003340] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\otheralgo\apriori.cpp:622) - C2
+    INFO [0x00003340] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\otheralgo\apriori.cpp:835) - RVector2
+1-->2 conf: 0.666667
+
+5-->1 conf: 1
+
+3-->1 conf: 0.666667
+
+1-->3 conf: 0.666667
+
+5-->2 conf: 1
+
+4-->2 conf: 1
+
+3-->2 conf: 0.666667
+
+25-->1 conf: 1
+
+15-->2 conf: 1
+
+5-->12 conf: 1
+
+    INFO [0x00002af0] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\algo_basic.cpp:236) - X_trainprint matrix is empty!
+
+    INFO [0x00002af0] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\algo_basic.cpp:236) - X_trainprint matrix is empty!
+
+    INFO [0x00002af0] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\algo_basic.cpp:236) - X_trainprint matrix is empty!
+
+    INFO [0x0000191c] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\algo_basic.cpp:231) - X_train
+8	
+13	
+3	
+2	
+10	
+9	
+12	
+11	
+16	
+4	
+7	
+15	
+5	
+1	
+6	
+14	
+17	
+
+   

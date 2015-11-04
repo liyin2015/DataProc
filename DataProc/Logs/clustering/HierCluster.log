@@ -1,0 +1,25 @@
+ INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:127) - case1
+   INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:127) - case1
+   INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:150) - case2
+   INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:168) - case3
+   INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:168) - case3
+   INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:127) - case1
+   INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:168) - case3
+   INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:168) - case3
+   INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:168) - case3
+   INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:238) - cluster 0
+   INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:242) - 	8
+   INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:242) - 	9
+   INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:242) - 	7
+   INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:242) - 	10
+   INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:242) - 	11
+   INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:238) - cluster 1
+   INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:242) - 	0
+   INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:242) - 	1
+   INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:242) - 	3
+   INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:242) - 	2
+   INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:238) - cluster 2
+   INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:242) - 	4
+   INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:242) - 	5
+   INFO [0x00003084] (f:\vsprojects2010\dataproc\dataproc\dataproc\ml\clustering\level_cluster.cpp:242) - 	6
+  

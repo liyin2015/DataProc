@@ -1,0 +1,88 @@
+﻿Build started 2015/2/17 10:07:33.
+     1>Project "F:\VSprojects2010\DataProc\DataProc\DataProc\DataProc.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\DataProc.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ml\supervise\linear_regression.cpp
+         linear_regression.cpp
+       ResourceCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\VSprojects2010\DataProc\DataProc\Debug\DataProc.exe" /INCREMENTAL /NOLOGO log4cxx.lib /MANIFEST /ManifestFile:"Debug\DataProc.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\VSprojects2010\DataProc\DataProc\Debug\DataProc.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\VSprojects2010\DataProc\DataProc\Debug\DataProc.lib" /MACHINE:X86 Debug\DataProc.res
+         Debug\DataProc.exe.embed.manifest.res
+         Debug\AboutDlg.obj
+         Debug\draw_lib.obj
+         Debug\DataProc.obj
+         Debug\DataProcDlg.obj
+         Debug\ChartAxis.obj
+         Debug\ChartAxisLabel.obj
+         Debug\ChartBarSerie.obj
+         Debug\ChartCandlestickSerie.obj
+         Debug\ChartCrossHairCursor.obj
+         Debug\ChartCtrl.obj
+         Debug\ChartCursor.obj
+         Debug\ChartDateTimeAxis.obj
+         Debug\ChartDragLineCursor.obj
+         Debug\ChartFont.obj
+         Debug\ChartGanttSerie.obj
+         Debug\ChartGradient.obj
+         Debug\ChartGrid.obj
+         Debug\ChartLegend.obj
+         Debug\ChartLineSerie.obj
+         Debug\ChartLogarithmicAxis.obj
+         Debug\ChartPointsSerie.obj
+         Debug\ChartScrollBar.obj
+         Debug\ChartSerie.obj
+         Debug\ChartStandardAxis.obj
+         Debug\ChartSurfaceSerie.obj
+         Debug\ChartTitle.obj
+         Debug\ChartXYSerie.obj
+         Debug\common.obj
+         Debug\DlgAdParas.obj
+         Debug\DlgCluster.obj
+         Debug\dlgComm.obj
+         Debug\DlgMain.obj
+         Debug\DlgModelSelect.obj
+         Debug\DlgOtherAlgo.obj
+         Debug\DlgPredict.obj
+         Debug\DlgRealTimeMonitor.obj
+         Debug\EditTable.obj
+         Debug\inputDlg.obj
+         Debug\ItemEdit.obj
+         Debug\algo_basic.obj
+         Debug\k_means.obj
+         Debug\level_cluster.obj
+         Debug\cluster_base.obj
+         Debug\comm.obj
+         Debug\evaluate_hypo.obj
+         Debug\examples.obj
+         Debug\feature_scalling.obj
+         Debug\io_manager.obj
+         Debug\kernels.obj
+         Debug\math_function.obj
+         Debug\matrix.obj
+         Debug\otherAlgo_Base.obj
+         Debug\apriori.obj
+         Debug\linear_regression.obj
+         Debug\logistic_regression.obj
+         Debug\neural_network.obj
+         Debug\svm.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\DataProc.exe.embed.manifest" /manifest Debug\DataProc.exe.intermediate.manifest "E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         DataProc.vcxproj -> F:\VSprojects2010\DataProc\DataProc\Debug\DataProc.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\DataProc.unsuccessfulbuild".
+         Touching "Debug\DataProc.lastbuildstate".
+     1>Done Building Project "F:\VSprojects2010\DataProc\DataProc\DataProc\DataProc.vcxproj" (build target(s)).
+
+生成成功。
+
+Time Elapsed 00:00:01.78

@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{29DC973C-6227-40FA-9693-F05941CB9E5D}</ProjectGuid>
+    <RootNamespace>MyDataProc</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+    <ProjectName>DataProc</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>..\DataProc\3rdparty\log4cxx\include;$(IncludePath)</IncludePath>
+    <ReferencePath>..\DataProc\3rdparty\log4cxx\lib;$(ReferencePath)</ReferencePath>
+    <LibraryPath>..\DataProc\3rdparty\log4cxx\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include;$(IncludePath)</IncludePath>
+    <ReferencePath>F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\lib;$(ReferencePath)</ReferencePath>
+    <LibraryPath>F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>log4cxx.lib;%(AdditionalDependiencies);%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\VSprojects2010\DataProc\DataProc\DataProc\3rdparty\log4cxx\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>log4cxx.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ChartCtrl_source\ChartBalloonLabel.inl" />
+    <None Include="ChartCtrl_source\ChartLabel.inl" />
+    <None Include="ChartCtrl_source\ChartPointsArray.inl" />
+    <None Include="ChartCtrl_source\ChartSerieBase.inl" />
+    <None Include="data\apriori.txt" />
+    <None Include="data\ex1data2.txt" />
+    <None Include="data\lin_regression.txt" />
+    <None Include="data\log_regression.txt" />
+    <None Include="data\log_regression_multiclass.txt" />
+    <None Include="data\neural_input.txt" />
+    <None Include="data\out.txt" />
+    <None Include="data\point.txt" />
+    <None Include="data\svm.txt" />
+    <None Include="data\test_data.txt" />
+    <None Include="log4cxx.properties" />
+    <None Include="ReadMe.txt" />
+    <None Include="res\DataProc.ico" />
+    <None Include="res\MyDataProc.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AboutDlg.h" />
+    <ClInclude Include="ChartCtrl_source\draw_lib.h" />
+    <ClInclude Include="DataProc.h" />
+    <ClInclude Include="DataProcDlg.h" />
+    <ClInclude Include="ChartCtrl_source\ChartAxis.h" />
+    <ClInclude Include="ChartCtrl_source\ChartAxisLabel.h" />
+    <ClInclude Include="ChartCtrl_source\ChartBalloonLabel.h" />
+    <ClInclude Include="ChartCtrl_source\ChartBarSerie.h" />
+    <ClInclude Include="ChartCtrl_source\ChartCandlestickSerie.h" />
+    <ClInclude Include="ChartCtrl_source\ChartCrossHairCursor.h" />
+    <ClInclude Include="ChartCtrl_source\ChartCtrl.h" />
+    <ClInclude Include="ChartCtrl_source\ChartCursor.h" />
+    <ClInclude Include="ChartCtrl_source\ChartDateTimeAxis.h" />
+    <ClInclude Include="ChartCtrl_source\ChartDragLineCursor.h" />
+    <ClInclude Include="ChartCtrl_source\ChartFont.h" />
+    <ClInclude Include="ChartCtrl_source\ChartGanttSerie.h" />
+    <ClInclude Include="ChartCtrl_source\ChartGradient.h" />
+    <ClInclude Include="ChartCtrl_source\ChartGrid.h" />
+    <ClInclude Include="ChartCtrl_source\ChartLabel.h" />
+    <ClInclude Include="ChartCtrl_source\ChartLegend.h" />
+    <ClInclude Include="ChartCtrl_source\ChartLineSerie.h" />
+    <ClInclude Include="ChartCtrl_source\ChartLogarithmicAxis.h" />
+    <ClInclude Include="ChartCtrl_source\ChartMouseListener.h" />
+    <ClInclude Include="ChartCtrl_source\ChartPointsArray.h" />
+    <ClInclude Include="ChartCtrl_source\ChartPointsSerie.h" />
+    <ClInclude Include="ChartCtrl_source\ChartScrollBar.h" />
+    <ClInclude Include="ChartCtrl_source\ChartSerie.h" />
+    <ClInclude Include="ChartCtrl_source\ChartSerieBase.h" />
+    <ClInclude Include="ChartCtrl_source\ChartSeriesMouseListener.h" />
+    <ClInclude Include="ChartCtrl_source\ChartStandardAxis.h" />
+    <ClInclude Include="ChartCtrl_source\ChartString.h" />
+    <ClInclude Include="ChartCtrl_source\ChartSurfaceSerie.h" />
+    <ClInclude Include="ChartCtrl_source\ChartTitle.h" />
+    <ClInclude Include="ChartCtrl_source\ChartXYSerie.h" />
+    <ClInclude Include="ChartCtrl_source\PointsOrdering.h" />
+    <ClInclude Include="common.hpp" />
+    <ClInclude Include="DlgAdParas.h" />
+    <ClInclude Include="DlgCluster.h" />
+    <ClInclude Include="dlgComm.h" />
+    <ClInclude Include="DlgMain.h" />
+    <ClInclude Include="DlgModelSelect.h" />
+    <ClInclude Include="DlgOtherAlgo.h" />
+    <ClInclude Include="DlgPredict.h" />
+    <ClInclude Include="DlgRealTimeMonitor.h" />
+    <ClInclude Include="EditTable.h" />
+    <ClInclude Include="inputDlg.h" />
+    <ClInclude Include="ItemEdit.h" />
+    <ClInclude Include="ml\algo_basic.h" />
+    <ClInclude Include="ml\clustering\k_means.hpp" />
+    <ClInclude Include="ml\clustering\level_cluster.hpp" />
+    <ClInclude Include="ml\cluster_base.h" />
+    <ClInclude Include="ml\comm.hpp" />
+    <ClInclude Include="ml\evaluate_hypo.hpp" />
+    <ClInclude Include="ml\examples.hpp" />
+    <ClInclude Include="ml\feature_scalling.hpp" />
+    <ClInclude Include="ml\io_manager.hpp" />
+    <ClInclude Include="ml\kernels.h" />
+    <ClInclude Include="ml\kernels.hpp" />
+    <ClInclude Include="ml\math_function.hpp" />
+    <ClInclude Include="ml\matrix.hpp" />
+    <ClInclude Include="ml\otherAlgo_Base.hpp" />
+    <ClInclude Include="ml\otherAlgo\apriori.hpp" />
+    <ClInclude Include="ml\supervise\linear_regression.hpp" />
+    <ClInclude Include="ml\supervise\logistic_regression.hpp" />
+    <ClInclude Include="ml\supervise\neural_network.hpp" />
+    <ClInclude Include="ml\supervise\svm.hpp" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AboutDlg.cpp" />
+    <ClCompile Include="ChartCtrl_source\draw_lib.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="DataProc.cpp" />
+    <ClCompile Include="DataProcDlg.cpp" />
+    <ClCompile Include="ChartCtrl_source\ChartAxis.cpp" />
+    <ClCompile Include="ChartCtrl_source\ChartAxisLabel.cpp" />
+    <ClCompile Include="ChartCtrl_source\ChartBarSerie.cpp" />
+    <ClCompile Include="ChartCtrl_source\ChartCandlestickSerie.cpp" />
+    <ClCompile Include="ChartCtrl_source\ChartCrossHairCursor.cpp" />
+    <ClCompile Include="ChartCtrl_source\ChartCtrl.cpp" />
+    <ClCompile Include="ChartCtrl_source\ChartCursor.cpp" />
+    <ClCompile Include="ChartCtrl_source\ChartDateTimeAxis.cpp" />
+    <ClCompile Include="ChartCtrl_source\ChartDragLineCursor.cpp" />
+    <ClCompile Include="ChartCtrl_source\ChartFont.cpp" />
+    <ClCompile Include="ChartCtrl_source\ChartGanttSerie.cpp" />
+    <ClCompile Include="ChartCtrl_source\ChartGradient.cpp" />
+    <ClCompile Include="ChartCtrl_source\ChartGrid.cpp" />
+    <ClCompile Include="ChartCtrl_source\ChartLegend.cpp" />
+    <ClCompile Include="ChartCtrl_source\ChartLineSerie.cpp" />
+    <ClCompile Include="ChartCtrl_source\ChartLogarithmicAxis.cpp" />
+    <ClCompile Include="ChartCtrl_source\ChartPointsSerie.cpp" />
+    <ClCompile Include="ChartCtrl_source\ChartScrollBar.cpp" />
+    <ClCompile Include="ChartCtrl_source\ChartSerie.cpp" />
+    <ClCompile Include="ChartCtrl_source\ChartStandardAxis.cpp" />
+    <ClCompile Include="ChartCtrl_source\ChartSurfaceSerie.cpp" />
+    <ClCompile Include="ChartCtrl_source\ChartTitle.cpp" />
+    <ClCompile Include="ChartCtrl_source\ChartXYSerie.cpp" />
+    <ClCompile Include="common.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="DlgAdParas.cpp" />
+    <ClCompile Include="DlgCluster.cpp" />
+    <ClCompile Include="dlgComm.cpp" />
+    <ClCompile Include="DlgMain.cpp" />
+    <ClCompile Include="DlgModelSelect.cpp" />
+    <ClCompile Include="DlgOtherAlgo.cpp" />
+    <ClCompile Include="DlgPredict.cpp" />
+    <ClCompile Include="DlgRealTimeMonitor.cpp" />
+    <ClCompile Include="EditTable.cpp" />
+    <ClCompile Include="inputDlg.cpp" />
+    <ClCompile Include="ItemEdit.cpp" />
+    <ClCompile Include="ml\algo_basic.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ml\clustering\k_means.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ml\clustering\level_cluster.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ml\cluster_base.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ml\comm.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ml\evaluate_hypo.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ml\examples.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ml\feature_scalling.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ml\io_manager.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ml\kernels.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ml\math_function.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ml\matrix.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ml\otherAlgo_Base.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ml\otherAlgo\apriori.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ml\supervise\linear_regression.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ml\supervise\logistic_regression.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ml\supervise\neural_network.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ml\supervise\svm.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DataProc.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="DataProc.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="visual">
+      <UniqueIdentifier>{b5da297c-96a0-4f14-9c3e-8c539df62305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chart_Source">
+      <UniqueIdentifier>{4914b925-92ad-4449-aab5-899a693c8972}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chart_Source_cpp">
+      <UniqueIdentifier>{227bdf5c-96ce-4c15-849a-2576a2e8a44c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ml">
+      <UniqueIdentifier>{eac26c65-1aa2-484a-9c92-e4e898bdb7c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ml\cluster">
+      <UniqueIdentifier>{5b7de5ee-81e6-4665-a0ab-4803dead76af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ml\supervise">
+      <UniqueIdentifier>{c86a6d35-4349-4883-af97-bd8b1eae3b70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ml\otherAlgo">
+      <UniqueIdentifier>{ab69ef17-cdc5-4f1a-a78e-a81aa9f74487}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="ChartCtrl_source\ChartBalloonLabel.inl">
+      <Filter>Chart_Source</Filter>
+    </None>
+    <None Include="ChartCtrl_source\ChartLabel.inl">
+      <Filter>Chart_Source</Filter>
+    </None>
+    <None Include="ChartCtrl_source\ChartPointsArray.inl">
+      <Filter>Chart_Source</Filter>
+    </None>
+    <None Include="ChartCtrl_source\ChartSerieBase.inl">
+      <Filter>Chart_Source</Filter>
+    </None>
+    <None Include="data\neural_input.txt" />
+    <None Include="data\out.txt" />
+    <None Include="data\svm.txt" />
+    <None Include="log4cxx.properties" />
+    <None Include="data\test_data.txt">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\MyDataProc.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\DataProc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\DataProc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="data\point.txt">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="data\ex1data2.txt">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="data\apriori.txt">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="data\log_regression_multiclass.txt" />
+    <None Include="data\log_regression.txt" />
+    <None Include="data\lin_regression.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inputDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartAxis.h">
+      <Filter>Chart_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartXYSerie.h">
+      <Filter>Chart_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartAxisLabel.h">
+      <Filter>Chart_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartBalloonLabel.h">
+      <Filter>Chart_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartBarSerie.h">
+      <Filter>Chart_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartCandlestickSerie.h">
+      <Filter>Chart_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartCrossHairCursor.h">
+      <Filter>Chart_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartCtrl.h">
+      <Filter>Chart_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartCursor.h">
+      <Filter>Chart_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartDateTimeAxis.h">
+      <Filter>Chart_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartDragLineCursor.h">
+      <Filter>Chart_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartFont.h">
+      <Filter>Chart_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartGanttSerie.h">
+      <Filter>Chart_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartGradient.h">
+      <Filter>Chart_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartGrid.h">
+      <Filter>Chart_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartLabel.h">
+      <Filter>Chart_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartLegend.h">
+      <Filter>Chart_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartLineSerie.h">
+      <Filter>Chart_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartLogarithmicAxis.h">
+      <Filter>Chart_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartMouseListener.h">
+      <Filter>Chart_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartPointsArray.h">
+      <Filter>Chart_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartPointsSerie.h">
+      <Filter>Chart_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartScrollBar.h">
+      <Filter>Chart_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartSerie.h">
+      <Filter>Chart_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartSerieBase.h">
+      <Filter>Chart_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartSeriesMouseListener.h">
+      <Filter>Chart_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartStandardAxis.h">
+      <Filter>Chart_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartString.h">
+      <Filter>Chart_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartSurfaceSerie.h">
+      <Filter>Chart_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartTitle.h">
+      <Filter>Chart_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\PointsOrdering.h">
+      <Filter>Chart_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ml\comm.hpp">
+      <Filter>ml</Filter>
+    </ClInclude>
+    <ClInclude Include="ml\evaluate_hypo.hpp">
+      <Filter>ml</Filter>
+    </ClInclude>
+    <ClInclude Include="ml\examples.hpp">
+      <Filter>ml</Filter>
+    </ClInclude>
+    <ClInclude Include="ml\feature_scalling.hpp">
+      <Filter>ml</Filter>
+    </ClInclude>
+    <ClInclude Include="ml\io_manager.hpp">
+      <Filter>ml</Filter>
+    </ClInclude>
+    <ClInclude Include="ml\kernels.h">
+      <Filter>ml</Filter>
+    </ClInclude>
+    <ClInclude Include="ml\kernels.hpp">
+      <Filter>ml</Filter>
+    </ClInclude>
+    <ClInclude Include="ml\math_function.hpp">
+      <Filter>ml</Filter>
+    </ClInclude>
+    <ClInclude Include="ml\matrix.hpp">
+      <Filter>ml</Filter>
+    </ClInclude>
+    <ClInclude Include="ml\algo_basic.h">
+      <Filter>ml</Filter>
+    </ClInclude>
+    <ClInclude Include="common.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DataProc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DataProcDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgAdParas.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ml\clustering\level_cluster.hpp">
+      <Filter>ml\cluster</Filter>
+    </ClInclude>
+    <ClInclude Include="ml\supervise\linear_regression.hpp">
+      <Filter>ml\supervise</Filter>
+    </ClInclude>
+    <ClInclude Include="ml\supervise\logistic_regression.hpp">
+      <Filter>ml\supervise</Filter>
+    </ClInclude>
+    <ClInclude Include="ml\supervise\neural_network.hpp">
+      <Filter>ml\supervise</Filter>
+    </ClInclude>
+    <ClInclude Include="ml\supervise\svm.hpp">
+      <Filter>ml\supervise</Filter>
+    </ClInclude>
+    <ClInclude Include="ml\cluster_base.h">
+      <Filter>ml</Filter>
+    </ClInclude>
+    <ClInclude Include="ml\clustering\k_means.hpp">
+      <Filter>ml\cluster</Filter>
+    </ClInclude>
+    <ClInclude Include="AboutDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgCluster.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgMain.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dlgComm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\draw_lib.h">
+      <Filter>Chart_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgRealTimeMonitor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgPredict.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgModelSelect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EditTable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemEdit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ml\otherAlgo\apriori.hpp">
+      <Filter>ml\otherAlgo</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgOtherAlgo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ml\otherAlgo_Base.hpp">
+      <Filter>ml</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="inputDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartAxis.cpp">
+      <Filter>Chart_Source_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartXYSerie.cpp">
+      <Filter>Chart_Source_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartAxisLabel.cpp">
+      <Filter>Chart_Source_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartBarSerie.cpp">
+      <Filter>Chart_Source_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartCandlestickSerie.cpp">
+      <Filter>Chart_Source_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartCrossHairCursor.cpp">
+      <Filter>Chart_Source_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartCtrl.cpp">
+      <Filter>Chart_Source_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartCursor.cpp">
+      <Filter>Chart_Source_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartDateTimeAxis.cpp">
+      <Filter>Chart_Source_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartDragLineCursor.cpp">
+      <Filter>Chart_Source_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartFont.cpp">
+      <Filter>Chart_Source_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartGanttSerie.cpp">
+      <Filter>Chart_Source_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartGradient.cpp">
+      <Filter>Chart_Source_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartGrid.cpp">
+      <Filter>Chart_Source_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartLegend.cpp">
+      <Filter>Chart_Source_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartLineSerie.cpp">
+      <Filter>Chart_Source_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartLogarithmicAxis.cpp">
+      <Filter>Chart_Source_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartPointsSerie.cpp">
+      <Filter>Chart_Source_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartScrollBar.cpp">
+      <Filter>Chart_Source_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartSerie.cpp">
+      <Filter>Chart_Source_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartStandardAxis.cpp">
+      <Filter>Chart_Source_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartSurfaceSerie.cpp">
+      <Filter>Chart_Source_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartTitle.cpp">
+      <Filter>Chart_Source_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ml\comm.cpp">
+      <Filter>ml</Filter>
+    </ClCompile>
+    <ClCompile Include="ml\evaluate_hypo.cpp">
+      <Filter>ml</Filter>
+    </ClCompile>
+    <ClCompile Include="ml\examples.cpp">
+      <Filter>ml</Filter>
+    </ClCompile>
+    <ClCompile Include="ml\feature_scalling.cpp">
+      <Filter>ml</Filter>
+    </ClCompile>
+    <ClCompile Include="ml\io_manager.cpp">
+      <Filter>ml</Filter>
+    </ClCompile>
+    <ClCompile Include="ml\kernels.cpp">
+      <Filter>ml</Filter>
+    </ClCompile>
+    <ClCompile Include="ml\math_function.cpp">
+      <Filter>ml</Filter>
+    </ClCompile>
+    <ClCompile Include="ml\matrix.cpp">
+      <Filter>ml</Filter>
+    </ClCompile>
+    <ClCompile Include="common.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DataProc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DataProcDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgAdParas.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ml\clustering\level_cluster.cpp">
+      <Filter>ml\cluster</Filter>
+    </ClCompile>
+    <ClCompile Include="ml\supervise\linear_regression.cpp">
+      <Filter>ml\supervise</Filter>
+    </ClCompile>
+    <ClCompile Include="ml\supervise\logistic_regression.cpp">
+      <Filter>ml\supervise</Filter>
+    </ClCompile>
+    <ClCompile Include="ml\supervise\neural_network.cpp">
+      <Filter>ml\supervise</Filter>
+    </ClCompile>
+    <ClCompile Include="ml\supervise\svm.cpp">
+      <Filter>ml\supervise</Filter>
+    </ClCompile>
+    <ClCompile Include="ml\clustering\k_means.cpp">
+      <Filter>ml\cluster</Filter>
+    </ClCompile>
+    <ClCompile Include="AboutDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgCluster.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgMain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\draw_lib.cpp">
+      <Filter>Chart_Source_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgRealTimeMonitor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ml\algo_basic.cpp">
+      <Filter>ml</Filter>
+    </ClCompile>
+    <ClCompile Include="ml\cluster_base.cpp">
+      <Filter>ml</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgPredict.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgModelSelect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dlgComm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EditTable.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemEdit.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ml\otherAlgo\apriori.cpp">
+      <Filter>ml\otherAlgo</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgOtherAlgo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ml\otherAlgo_Base.cpp">
+      <Filter>ml</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DataProc.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
